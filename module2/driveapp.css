@@ -1,0 +1,400 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.wrapper{
+  min-height:100vh;
+  background-color:rgba(0,0,0,.4);
+  font-family: 'Open Sans', sans-serif;
+  padding-top:40px;
+}
+.container{
+  max-width:400px;
+  margin:0 auto;
+  background-color:white;
+  text-align:center;
+  padding:50px 0;
+  box-shadow:0 0 20px rgba(0,0,0,.4);
+  border-radius:3px;
+}
+
+.home-wrapper{
+  min-height:100vh;
+  background-color:rgba(0,0,0,.4);
+  font-family: 'Open Sans', sans-serif;
+  padding-top:50px;
+}
+
+.home-container{
+  max-width:800px;
+  margin:0 auto;
+  background-color:white;
+  text-align:center;
+  padding:120px 60px;
+  box-shadow:0 0 20px rgba(0,0,0,.4);
+  border-radius:3px;
+}
+
+.home-title{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40pt;
+  padding-top: 60px;
+}
+
+.home-title:hover{
+  color:rgba(0,0,0,0.4);
+  text-shadow: #CDB87D;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-button{
+  margin-top:50px;
+  width:15%;
+  padding:15px 28px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+  border-radius: 5%;
+}
+/*
+.drive-wrapper{
+  min-height:100vh;
+  background-color:rgba(0,0,0,.4);
+  font-family: 'Open Sans', sans-serif;
+  padding-top:50px;
+}
+
+.drive-container{
+  max-width:1200px;
+  margin:0 auto;
+  background-color:white;
+  padding:200px 60px;
+  box-shadow:0 0 20px rgba(0,0,0,.4);
+  border-radius:3px;
+}
+
+.drive-headbar{
+  max-width:1200px;
+  margin:0 auto;
+  background-color:white;
+  padding:200px 60px;
+  box-shadow:0 0 20px rgba(0,0,0,.4);
+  border-radius:3px;
+}
+*/
+
+/*drive*/
+.drive-header {
+  padding: 15px;
+  text-align: Left;
+  background: white;
+}
+
+.drive-header .left {
+  font-size: 40px;
+}
+
+.drive-navbar {
+  overflow: hidden;
+  background-color: #1D2951;
+}
+
+.drive-navbar .left {
+  float: left;
+  display: block;
+  color: #CDB87D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.drive-navbar .left:hover {
+  background-color: #ddd;
+  color: #CDB87D;
+}
+
+.drive-navbar .right {
+  float: right;
+  display: block;
+  color: #CDB87D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.drive-navbar .right:hover {
+  background-color: #ddd;
+  color: #CDB87D;
+}
+
+.drive-upload{   
+  float: left;
+  width: 25%;
+}
+
+.drive-upload .choose{   
+  margin-top:20px;
+}
+
+.drive-upload .upload{   
+  margin-top:20px;
+  padding:10px 21px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 11pt;
+  border-radius: 5%;
+}
+.card {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+.card2 {
+  margin-top: 0px;
+  background-color: white;
+  padding: 20px;
+}
+
+.stat{
+  padding:10px 10px;
+  font-size: 13pt;
+  line-height: 30px;
+}
+
+.drive-main{
+  float: left;
+  width: 75%;
+  height: 75%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.drive-main .form{
+  margin:10px;
+}
+
+.drive-item {
+  overflow: hidden;
+  background-color:white;
+}
+
+.drive-item .left {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.drive-item .left:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.drive-item .right {
+  float: right;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.drive-item .right:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*
+.dirve-item .item {
+  overflow: auto;
+  width: 100%;
+  background-color:white;
+  box-sizing: border-box;
+  margin-bottom:10px;
+}
+
+.dirve-item:hover {
+background-color: grey;
+color:white;
+}
+
+.dirve-item .download{
+float: left;
+margin-left: 5%;
+height:100%;
+margin-top: 1%;
+padding: 20px 20px 20px 20px;
+border-radius: 20%
+}
+
+.dirve-item .download:hover{
+background-color: green;
+}
+
+.drive-item .delete {
+font-size:18pt;
+float:right;
+margin-top: 1%;
+margin-right: 5%;
+padding: 7px 16px 7px 16px;
+border-radius: 20%
+}
+
+.dirve-item .delete:hover {
+background-color: #f44336;
+color: white;
+}
+*/
+/*drive*/
+
+.login{
+  display:block;
+  width:50%;
+  margin: 5px auto;
+  text-decoration:none;
+  font-size: 16pt;
+  padding:10px 15px;
+  color:#fff;
+  border-radius:3px;
+  margin-bottom:10px;
+  transition:all .3s ease-in-out;
+}
+.login:hover{
+    box-shadow:0 10px 15px -5px rgba(0,0,0,0.4);
+}
+
+.message{
+  display:block;
+  width:100%;
+  margin: 5px auto;
+  text-decoration:none;
+  font-size: 18pt;
+  padding:20px 15px;
+  color:black;
+  border-radius:3px;
+  transition:all .3s ease-in-out;
+  background-color:white;
+}
+
+
+a.title{
+  background-color:#1D2951;
+}
+
+form{
+  max-width:250px;
+  margin:0 auto;
+  text-align:left;
+}
+
+p.seperator{
+  margin:25px;
+}
+div.group{
+  margin-top:15px;
+}
+label{
+  display:block;
+  margin-bottom:5px;
+}
+div.group input{
+  width:100%;
+  padding:10px 4px;
+  outline:none;
+}
+a.forget-link{
+  color:black;
+  display:block;
+  margin:10px 0;
+}
+
+button.register{
+  margin-top:10px;
+  width:30%;
+  padding:15px 28px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+  border-radius: 5%;
+}
+
+button.login{
+  margin-top:20px;
+  width:30%;
+  padding:15px 35px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+}
+
+button.return{
+  margin-top:10px;
+  padding:15px 28px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+}
+
+input[type="submit"]{
+  padding:5px 10px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+}
+
+input.register{
+  margin-top:30px;
+  width:30%;
+  padding:15px 28px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+}
+
+input.login{
+  margin-top:20px;
+  width:48%;
+  padding:15px 35px;
+  outline:none;
+  border:None;
+  background-color:#1D2951;
+  color:#CDB87D;
+  transition:all .3s ease-in-out;
+  font-size: 12pt;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: [width of img];
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}

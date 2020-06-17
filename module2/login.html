@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="driveapp.css">
+    <title>login</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <a class="title login">
+                Welcome
+            </a>
+
+            <form autocomplete="off" action="login.php" method="GET">
+                <div class="group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <input type="submit" value="Log In" class="login" />
+            </form>
+
+            <button type="submit" onclick="location.href = 'register.html';" class="register">Sign Up</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
